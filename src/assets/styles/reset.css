@@ -1,0 +1,58 @@
+*:where(
+    :not(iframe, canvas, img, svg, video):not(svg *, symbol *):not(.ql-container, .ql-container *)
+  ) {
+  all: unset;
+  display: revert;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  cursor: revert;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+[type='search']::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::placeholder {
+  color: unset;
+}
+
+input,
+textarea {
+  user-select: auto;
+}
+
+input[type='number'] {
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+  }
+}
+
+textarea {
+  white-space: revert;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  appearance: button;
+}

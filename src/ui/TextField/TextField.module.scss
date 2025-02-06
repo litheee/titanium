@@ -1,0 +1,17 @@
+.textField {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid rgb(137, 149, 159);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+
+  input {
+    width: 100%;
+    padding: 16px 20px 16px 0;
+
+    &::placeholder {
+      color: #89959f;
+    }
+  }
+}

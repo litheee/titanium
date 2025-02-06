@@ -1,0 +1,56 @@
+.goodsPreview {
+  display: flex;
+  align-items: center;
+  height: 537px;
+  border-radius: 20px;
+  padding-left: 85px;
+  padding-right: 6px;
+  background: url('/src/assets//img/main-image-bg.png');
+  background-size: cover;
+  color: #fff;
+
+  h1 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  p {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+}
+
+.text {
+  .button {
+    max-width: 317px;
+    height: 59px;
+    margin-top: 37px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .goodsPreview {
+    padding: 100px 40px;
+    height: auto;
+    background-size: auto;
+  }
+
+  .image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .goodsPreview {
+    padding: 50px 20px;
+
+    h1 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+}
