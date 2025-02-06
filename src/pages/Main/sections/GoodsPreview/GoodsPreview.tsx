@@ -1,6 +1,7 @@
 import { Button } from 'ui'
 
 import classes from './GoodsPreview.module.scss'
+import truckImg from '/src/assets/img/truck.png'
 
 export const GoodsPreview = () => {
   return (
@@ -17,7 +18,7 @@ export const GoodsPreview = () => {
       </div>
 
       <div className={classes.image}>
-        <img src='/src/assets/img/truck.png' alt='Грузовик' />
+        <img src={truckImg} alt='Грузовик' />
       </div>
     </section>
   )

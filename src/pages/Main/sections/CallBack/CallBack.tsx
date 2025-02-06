@@ -3,6 +3,7 @@ import { PatternFormat } from 'react-number-format'
 import { Button, TextField } from 'ui'
 
 import classes from './CallBack.module.scss'
+import questionsImg from '/src/assets/img/questions-img.png'
 
 export const CallBack = () => {
   return (
@@ -32,7 +33,7 @@ export const CallBack = () => {
         </form>
       </div>
 
-      <img src='/src/assets/img/questions-img.png' alt='Запчасти' />
+      <img src={questionsImg} alt='Запчасти' />
     </section>
   )
 }

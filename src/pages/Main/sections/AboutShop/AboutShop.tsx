@@ -1,4 +1,5 @@
 import classes from './AboutShop.module.scss'
+import aboutShopImg from '/src/assets/img/about-shop-img.png'
 
 export const AboutShop = () => {
   return (
@@ -19,7 +20,7 @@ export const AboutShop = () => {
       </div>
 
       <div className={classes.image}>
-        <img src='/src/assets/img/about-shop-img.png' alt='Запчасти' />
+        <img src={aboutShopImg} alt='Запчасти' />
       </div>
     </section>
   )

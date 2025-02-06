@@ -1,34 +1,46 @@
 import { Link } from 'react-router-dom'
 
 import classes from './Manufacturers.module.scss'
+import mazImg from '/src/assets/img/spare-parts-manufacturers/maz.png'
+import difaImg from '/src/assets/img/spare-parts-manufacturers/difa.png'
+import beltrimoImg from '/src/assets/img/spare-parts-manufacturers/beltrimo.png'
+import mtzImg from '/src/assets/img/spare-parts-manufacturers/mtz.png'
+import iekranImg from '/src/assets/img/spare-parts-manufacturers/iekran.png'
+import taimImg from '/src/assets/img/spare-parts-manufacturers/taim.png'
+import vzaipImg from '/src/assets/img/spare-parts-manufacturers/vzaip.png'
+import beltizImg from '/src/assets/img/spare-parts-manufacturers/beltiz.png'
+import baazImg from '/src/assets/img/spare-parts-manufacturers/baaz.png'
+import ozaaImg from '/src/assets/img/spare-parts-manufacturers/ozaa.png'
+import radiovolnaImg from '/src/assets/img/spare-parts-manufacturers/radiovolna.png'
+import belarusRezinoTexnikaImg from '/src/assets/img/spare-parts-manufacturers/belarus-rezino-texnika.png'
 
 export const Manufacturers = () => {
   const manufacturers = [
-    { label: 'Запчасти  ОАО МАЗ', imgSrc: '/src/assets/img/spare-parts-manufacturers/maz.png' },
-    { label: 'Запчасти СОАО ДИФА', imgSrc: '/src/assets/img/spare-parts-manufacturers/difa.png' },
+    { label: 'Запчасти  ОАО МАЗ', imgSrc: mazImg },
+    { label: 'Запчасти СОАО ДИФА', imgSrc: difaImg },
     {
       label: 'Запчасти СООО Белтримо',
-      imgSrc: '/src/assets/img/spare-parts-manufacturers/beltrimo.png'
+      imgSrc: beltrimoImg
     },
-    { label: 'Запчасти МТЗ', imgSrc: '/src/assets/img/spare-parts-manufacturers/mtz.png' },
+    { label: 'Запчасти МТЗ', imgSrc: mtzImg },
 
-    { label: 'Запчасти ОАО ЭКРАН', imgSrc: '/src/assets/img/spare-parts-manufacturers/iekran.png' },
-    { label: 'Запчасти ТАиМ', imgSrc: '/src/assets/img/spare-parts-manufacturers/taim.png' },
-    { label: 'Запчасти ВЗЭИП', imgSrc: '/src/assets/img/spare-parts-manufacturers/vzaip.png' },
+    { label: 'Запчасти ОАО ЭКРАН', imgSrc: iekranImg },
+    { label: 'Запчасти ТАиМ', imgSrc: taimImg },
+    { label: 'Запчасти ВЗЭИП', imgSrc: vzaipImg },
     {
       label: 'Запчасти УП ОО БелТиз',
-      imgSrc: '/src/assets/img/spare-parts-manufacturers/beltiz.png'
+      imgSrc: beltizImg
     },
 
-    { label: 'Запчасти  ОАО БААЗ', imgSrc: '/src/assets/img/spare-parts-manufacturers/baaz.png' },
-    { label: 'Запчасти ОАО ОЗАА', imgSrc: '/src/assets/img/spare-parts-manufacturers/ozaa.png' },
+    { label: 'Запчасти  ОАО БААЗ', imgSrc: baazImg },
+    { label: 'Запчасти ОАО ОЗАА', imgSrc: ozaaImg },
     {
       label: 'Запчасти ОАО Радиоволна',
-      imgSrc: '/src/assets/img/spare-parts-manufacturers/radiovolna.png'
+      imgSrc: radiovolnaImg
     },
     {
       label: 'Запчасти ОАО Беларусьрезинотехника',
-      imgSrc: '/src/assets/img/spare-parts-manufacturers/belarus-rezino-texnika.png'
+      imgSrc: belarusRezinoTexnikaImg
     }
   ]
 

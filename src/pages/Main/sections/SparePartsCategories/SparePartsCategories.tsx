@@ -2,20 +2,25 @@ import { Link } from 'react-router-dom'
 
 import classes from './SparePartsCategories.module.scss'
 import ArrowRightIcon from 'assets/icons/arrow-right.svg?react'
+import engineImg from '/src/assets/img/spare-parts-categories/engine.png'
+import coolingSystemsImg from '/src/assets/img/spare-parts-categories/cooling-systems.png'
+import wheelsHubs from '/src/assets/img/spare-parts-categories/wheels-hubs.png'
+import powerSystems from '/src/assets/img/spare-parts-categories/power-systems.png'
+import clutchImg from '/src/assets/img/spare-parts-categories/clutch.png'
 
 export const SparePartsCategories = () => {
   const categories = [
-    { label: 'Двигатели', imgSrc: '/src/assets/img/spare-parts-categories/engine.png' },
+    { label: 'Двигатели', imgSrc: engineImg },
     {
       label: 'Системы охлаждения',
-      imgSrc: '/src/assets/img/spare-parts-categories/cooling-systems.png'
+      imgSrc: coolingSystemsImg
     },
-    { label: 'Колеса и ступицы', imgSrc: '/src/assets/img/spare-parts-categories/wheels-hubs.png' },
+    { label: 'Колеса и ступицы', imgSrc: wheelsHubs },
     {
       label: 'Системы питания',
-      imgSrc: '/src/assets/img/spare-parts-categories/power-systems.png'
+      imgSrc: powerSystems
     },
-    { label: 'Сцепление', imgSrc: '/src/assets/img/spare-parts-categories/clutch.png' }
+    { label: 'Сцепление', imgSrc: clutchImg }
   ]
 
   return (
