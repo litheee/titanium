@@ -1,4 +1,10 @@
 .contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 5px 0;
+  box-sizing: border-box;
 }
 
 .socialList {
@@ -18,7 +24,6 @@
 .phones {
   display: flex;
   flex-direction: column;
-  margin-top: 21px;
 
   a {
     display: flex;
@@ -28,7 +33,12 @@
     color: #fff;
 
     &:not(:first-of-type) {
-      margin-top: 10px;
+      margin-top: 2px;
     }
   }
+}
+
+.mail {
+  color: #fff;
+  font-size: 18px;
 }

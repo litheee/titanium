@@ -23,6 +23,12 @@
   }
 }
 
+.contacts {
+  & > div > a {
+    margin: 7px 0;
+  }
+}
+
 @media screen and (max-width: 1250px) {
   .footer {
     height: auto;
@@ -70,6 +76,10 @@
     ul {
       justify-content: center;
     }
+
+    div > a {
+      text-align: center;
+    }
   }
 }
 
@@ -77,5 +87,13 @@
   .navList {
     flex-direction: column;
     gap: 15px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .footer {
+    :global(.wrapper) {
+      padding: 0;
+    }
   }
 }

@@ -14,7 +14,7 @@ export const Footer = () => {
   ]
 
   return (
-    <footer className={classes.footer}>
+    <footer id='footer' className={classes.footer}>
       <div className='wrapper'>
         <div className={classes.logo}>
           <Logo />

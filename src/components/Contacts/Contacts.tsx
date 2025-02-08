@@ -8,7 +8,7 @@ export const Contacts = () => {
   const social = [
     { label: 'telegram', href: '/', icon: <TelegramIcon />, color: '#55B0DA' },
     { label: 'WhatsApp', href: '/', icon: <WhatsAppIcon />, color: '#62BC6B' },
-    { label: 'Mail', href: '/', icon: <MailIcon />, color: '#8BBEEE' }
+    { label: 'Mail', href: 'mailto:titanzapch@mail.ru', icon: <MailIcon />, color: '#8BBEEE' }
   ]
 
   return (
@@ -24,6 +24,10 @@ export const Contacts = () => {
           )
         })}
       </ul>
+
+      <a href='mailto:titanzapch@mail.ru' className={classes.mail}>
+        titanzapch@mail.ru
+      </a>
 
       <div className={classes.phones}>
         <a href='tel:79502705030'>
